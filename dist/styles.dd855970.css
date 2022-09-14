@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border: none;
+  border-radius: 16px;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 16px;
+  padding: 4px 16px;
+  margin-right: 4px;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+li > p {
+  margin-right: 16px;
+}
+
+.input-area,
+.incomplete-area,
+.complete-area {
+  width: 400px;
+  padding: 16px 24px;
+  margin: 8px auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.493);
+}
+
+.incomplete-area,
+.complete-area {
+  min-height: 200px;
+}
+
+.input-area {
+  background-color: rgb(44, 172, 204);
+}
+
+.incomplete-area {
+  background-color: rgb(160, 203, 214);
+}
+
+.complete-area {
+  background-color: rgb(255, 167, 140);
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  color: rgb(71, 71, 71);
+}
+
+.list-row {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.list-row:not(:last-child) {
+  border-bottom: 2px solid rgb(160, 160, 160);
+}
+
+
+/*# sourceMappingURL=/styles.dd855970.css.map */
